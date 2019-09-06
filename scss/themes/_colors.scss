@@ -1,0 +1,14 @@
+//
+// theme colors
+//
+
+$dark:  rgb(55,  61,   66);
+$white: rgb(255, 255, 255);
+$theme-colors: (
+        'dark': (
+                'sidebar-bg': $dark
+        ),
+        'white': (
+                'sidebar-bg': $white
+        )
+);

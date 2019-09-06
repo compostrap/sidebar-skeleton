@@ -1,0 +1,11 @@
+//
+// theme default
+//
+
+@each $theme, $map in $theme-colors {
+
+  .sidebar-#{$theme} {
+    background-color: map-get($map, sidebar-bg);
+  }
+
+}

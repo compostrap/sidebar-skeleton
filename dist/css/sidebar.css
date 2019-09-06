@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*!
+ * Sidebar menu for Bootstrap 4
+ * Copyright Zden─Ťk Papu─Ź├şk
+ * MIT License
+*/
+body {
+  overflow-x: hidden;
+}
+
+.content {
+  min-width: 100vw;
+}
+@media (min-width: 768px) {
+  .content {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+.sidebar {
+  min-height: calc(100vh - 3.5rem);
+  margin-left: -15.625rem;
+  transition: margin 0.15s ease-out;
+  border-top-right-radius: 0.25rem;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    margin-left: 0;
+  }
+}
+
+.sidebar-toggle .sidebar {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .sidebar-toggle .sidebar {
+    margin-left: -15.625rem;
+  }
+}
+
+.sidebar-menu {
+  width: 15.625rem;
+}
+
+.nav-fixed {
+  margin-top: 3.5rem;
+}
+
+.sidebar-dark {
+  background-color: #373d42;
+}
+
+.sidebar-white {
+  background-color: white;
+}
+
+/*# sourceMappingURL=sidebar.css.map */

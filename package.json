@@ -1,0 +1,31 @@
+{
+  "name": "sidebar-menu-skeleton-compostrap",
+  "version": "1.0.0",
+  "description": "Simple and fast sidebar menu skeleton on Bootstrap 4",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.14.7"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "@fortawesome/fontawesome-free": "^5.10.2"
+  },
+  "author": "Zdeněk Papučík <zdenek.papucik@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "sidebar",
+    "menu",
+    "bootstrap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compostrap/sidebar-menu-skeleton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/compostrap/sidebar-menu-skeleton/issues"
+  },
+  "homepage": "https://github.com/compostrap/sidebar-menu-skeleton#readme"
+}

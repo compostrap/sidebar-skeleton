@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+	<link rel="stylesheet" href="dist/css/sidebar.css">
+	<title>Sidebar menu skeleton</title>
+</head>
+
+<body>
+	<div class="d-flex nav-fixed" id="wrapper">
+
+		<!-- sidebar -->
+		<nav role="navigation" class="sidebar sidebar-dark rounded-0">
+
+			<!-- sidebar menu -->
+			<div class="sidebar-menu"></div>
+		</nav>
+
+		<!-- content wrapper -->
+		<div class="content">
+
+			<!-- navbar -->
+			<nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+
+				<!-- navbar title -->
+				<a class="navbar-brand" href="#">Sidebar menu</a>
+
+				<!-- navbar nav -->
+				<div class="navbar-nav">
+					<a class="nav-link nav-bars" id="sidebar-toggle" href="#">
+						<i class="fas fa-bars"></i>
+					</a>
+				</div>
+
+			</nav>
+
+			<!-- main content -->
+			<main role="main" class="container-fluid"></main>
+		</div>
+	</div>
+
+	<!-- javascript library -->
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="dist/js/sidebar.menu.js"></script>
+</body>
+
+</html>
