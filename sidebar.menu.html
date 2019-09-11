@@ -11,37 +11,37 @@
 </head>
 
 <body>
-	<div class="d-flex nav-fixed" id="wrapper">
+
+	<header>
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+
+			<!-- title -->
+			<a class="navbar-brand" href="#">Sidebar menu</a>
+
+			<!-- sidebar toggle -->
+			<button class="navbar-toggler border-0" type="button" id="sidebarToggle" onfocus="false">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</nav>
+	</header>
+
+	<!-- sidebar, content -->
+	<div class="d-flex">
 
 		<!-- sidebar -->
-		<nav role="navigation" class="sidebar sidebar-dark rounded-0">
+		<nav role="navigation" class="sidebar sidebar-dark rounded-0" id="sidebarMenu">
 
 			<!-- sidebar menu -->
-			<div class="sidebar-menu"></div>
+			<div class="sidebar__menu">
+				<div class="sidebar__menu--fixed"></div>
+			</div>
 		</nav>
 
-		<!-- content wrapper -->
-		<div class="content">
-
-			<!-- navbar -->
-			<nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
-
-				<!-- navbar title -->
-				<a class="navbar-brand" href="#">Sidebar menu</a>
-
-				<!-- navbar nav -->
-				<div class="navbar-nav">
-					<a class="nav-link nav-bars" id="sidebar-toggle" href="#">
-						<i class="fas fa-bars"></i>
-					</a>
-				</div>
-
-			</nav>
-
-			<!-- main content -->
-			<main role="main" class="container-fluid"></main>
-		</div>
+		<!-- content -->
+		<main role="main" class="container-fluid"></main>
 	</div>
+
+	<footer></footer>
 
 	<!-- javascript library -->
 	<script src="node_modules/jquery/dist/jquery.js"></script>

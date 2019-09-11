@@ -1,5 +1,5 @@
 //
-// sidebar menu layout
+// sidebar menu component
 //
 
 .sidebar {
@@ -10,15 +10,19 @@
   @include media-breakpoint-up('md') {
     margin-left: 0;
   }
-}
 
-.sidebar-toggle .sidebar {
-  margin-left: 0;
-  @include media-breakpoint-up('md') {
-    margin-left: - $sm-sidebar;
+  &--toggle {
+    margin-left: 0;
+    @include media-breakpoint-up('md') {
+      margin-left: - $sm-sidebar;
+    }
   }
 }
 
-.sidebar-menu {
+.sidebar__menu {
   width: $sm-sidebar;
+
+  &--fixed {
+    position: fixed;
+  }
 }

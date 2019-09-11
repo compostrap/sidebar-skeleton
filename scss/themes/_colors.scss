@@ -2,13 +2,25 @@
 // theme colors
 //
 
-$dark:  rgb(55,  61,   66);
-$white: rgb(255, 255, 255);
 $theme-colors: (
-        'dark': (
-                'sidebar-bg': $dark
-        ),
-        'white': (
-                'sidebar-bg': $white
-        )
+        'white':    ('sidebar-bg': $white),
+        'gray-100': ('sidebar-bg': $gray-100),
+        'gray-200': ('sidebar-bg': $gray-200),
+        'gray-300': ('sidebar-bg': $gray-300),
+        'gray-400': ('sidebar-bg': $gray-400),
+        'gray-500': ('sidebar-bg': $gray-500),
+        'gray-600': ('sidebar-bg': $gray-600),
+        'gray-700': ('sidebar-bg': $gray-700),
+        'gray-800': ('sidebar-bg': $gray-800),
+        'gray-900': ('sidebar-bg': $gray-900),
+        'black':    ('sidebar-bg': $black),
+        'blue':     ('sidebar-bg': $blue),
+        'indigo':   ('sidebar-bg': $indigo),
+        'purple':   ('sidebar-bg': $purple),
+        'pink':     ('sidebar-bg': $pink),
+        'orange':   ('sidebar-bg': $orange),
+        'yellow':   ('sidebar-bg': $yellow),
+        'green':    ('sidebar-bg': $green),
+        'teal':     ('sidebar-bg': $teal),
+        'cyan':     ('sidebar-bg': $cyan),
 );

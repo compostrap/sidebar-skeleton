@@ -6,8 +6,8 @@
 (function($) {
 
   // toggle sidebar menu
-  $('#sidebar-toggle').on('click', function() {
-    $('#wrapper').toggleClass('sidebar-toggle');
+  $('#sidebarToggle').on('click', function() {
+    $('#sidebarMenu').toggleClass('sidebar--toggle');
   });
 
 }(jQuery));

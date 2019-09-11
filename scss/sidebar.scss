@@ -10,16 +10,12 @@
 @import '../node_modules/bootstrap/scss/_variables';
 @import '../node_modules/bootstrap/scss/_mixins';
 
-// sidebar-menu
+// sidebar menu skeleton
 @import 'utils/_functions';
 @import 'utils/_variables';
 
 @import 'base/_body';
-
-@import 'layout/_content';
-@import 'layout/_sidebar';
-
-@import 'components/_navbar';
+@import 'components/_sidebar';
 
 @import 'themes/_colors';
 @import 'themes/_theme';

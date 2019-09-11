@@ -1,21 +1,11 @@
 @charset "UTF-8";
 /*!
  * Sidebar menu for Bootstrap 4
- * Copyright Zden─Ťk Papu─Ź├şk
+ * Copyright Zdeněk Papučík
  * MIT License
 */
 body {
   overflow-x: hidden;
-}
-
-.content {
-  min-width: 100vw;
-}
-@media (min-width: 768px) {
-  .content {
-    min-width: 0;
-    width: 100%;
-  }
 }
 
 .sidebar {
@@ -29,30 +19,100 @@ body {
     margin-left: 0;
   }
 }
-
-.sidebar-toggle .sidebar {
+.sidebar--toggle {
   margin-left: 0;
 }
 @media (min-width: 768px) {
-  .sidebar-toggle .sidebar {
+  .sidebar--toggle {
     margin-left: -15.625rem;
   }
 }
 
-.sidebar-menu {
+.sidebar__menu {
   width: 15.625rem;
 }
-
-.nav-fixed {
-  margin-top: 3.5rem;
+.sidebar__menu--fixed {
+  position: fixed;
 }
 
-.sidebar-dark {
-  background-color: #373d42;
+.sidebar--white {
+  background-color: #fff;
 }
 
-.sidebar-white {
-  background-color: white;
+.sidebar--gray-100 {
+  background-color: #f8f9fa;
+}
+
+.sidebar--gray-200 {
+  background-color: #e9ecef;
+}
+
+.sidebar--gray-300 {
+  background-color: #dee2e6;
+}
+
+.sidebar--gray-400 {
+  background-color: #ced4da;
+}
+
+.sidebar--gray-500 {
+  background-color: #adb5bd;
+}
+
+.sidebar--gray-600 {
+  background-color: #6c757d;
+}
+
+.sidebar--gray-700 {
+  background-color: #495057;
+}
+
+.sidebar--gray-800 {
+  background-color: #343a40;
+}
+
+.sidebar--gray-900 {
+  background-color: #212529;
+}
+
+.sidebar--black {
+  background-color: #000;
+}
+
+.sidebar--blue {
+  background-color: #007bff;
+}
+
+.sidebar--indigo {
+  background-color: #6610f2;
+}
+
+.sidebar--purple {
+  background-color: #6f42c1;
+}
+
+.sidebar--pink {
+  background-color: #e83e8c;
+}
+
+.sidebar--orange {
+  background-color: #fd7e14;
+}
+
+.sidebar--yellow {
+  background-color: #ffc107;
+}
+
+.sidebar--green {
+  background-color: #28a745;
+}
+
+.sidebar--teal {
+  background-color: #20c997;
+}
+
+.sidebar--cyan {
+  background-color: #17a2b8;
 }
 
 /*# sourceMappingURL=sidebar.css.map */

@@ -4,7 +4,7 @@
 
 @each $theme, $map in $theme-colors {
 
-  .sidebar-#{$theme} {
+  .sidebar--#{$theme} {
     background-color: map-get($map, sidebar-bg);
   }
 
