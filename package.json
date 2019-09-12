@@ -1,7 +1,7 @@
 {
-  "name": "sidebar-menu-skeleton-compostrap",
-  "version": "1.0.1",
-  "description": "Simple and fast sidebar menu skeleton on Bootstrap 4",
+  "name": "sidebar-skeleton-compostrap",
+  "version": "1.0.0",
+  "description": "Simple and fast sidebar skeleton on Bootstrap 4",
   "main": "Gruntfile.js",
   "dependencies": {
     "jquery": "^3.4.1",
@@ -21,10 +21,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/compostrap/sidebar-menu-skeleton.git"
+    "url": "git+https://github.com/compostrap/sidebar-skeleton.git"
   },
   "bugs": {
-    "url": "https://github.com/compostrap/sidebar-menu-skeleton/issues"
+    "url": "https://github.com/compostrap/sidebar-skeleton/issues"
   },
-  "homepage": "https://github.com/compostrap/sidebar-menu-skeleton#readme"
+  "homepage": "https://github.com/compostrap/sidebar-skeleton#readme"
 }
