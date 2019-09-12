@@ -95,6 +95,10 @@ body {
   background-color: #e83e8c;
 }
 
+.sidebar--red {
+  background-color: #dc3545;
+}
+
 .sidebar--orange {
   background-color: #fd7e14;
 }
