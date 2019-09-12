@@ -14,17 +14,13 @@ Simple and fast sidebar skeleton.
 
 ## Installation
 ```
-npm install --save sidebar-menu-compostrap
+npm install --save sidebar-skeleton-compostrap
 ```
 
 ## Built on
 
 - [Bootstrap 4](https://getbootstrap.com)
 - [jQuery](https://jquery.com)
-- [Font Awesome 5](https://fontawesome.com)
-- [Perfect scrollbar](https://github.com/mdbootstrap/perfect-scrollbar)
-- [Open Sans @font-face kit](https://github.com/FontFaceKit/open-sans)
-- [Nanobar](https://github.com/jacoborus/nanobar)
 
 ## View demo
 
