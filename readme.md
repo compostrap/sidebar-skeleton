@@ -8,7 +8,7 @@
 ## Info
 Simple and fast sidebar skeleton.
 
-[![License: MIT](https://github.com/compostrap/sidebar-skeleton/blob/master/license.md)
+[![License: MIT](https://raw.githubusercontent.com/compostrap/sidebar-skeleton/master/license.md)
 [![npm version](https://badge.fury.io/js/sidebar-skeleton-compostrap.svg)](https://badge.fury.io/js/sidebar-skeleton-compostrap)
 [![Build Status](https://travis-ci.org/compostrap/sidebar-skeleton.svg?branch=master)](https://travis-ci.org/compostrap/sidebar-skeleton)
 
