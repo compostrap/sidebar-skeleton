@@ -1,10 +1,9 @@
 //
-// sidebar menu component
+// sidebar component
 //
 
 .sidebar {
-  min-height: calc(100vh - #{$sm-top});
-  margin-left: - $sm-sidebar;
+  margin-left: - $sm-width;
   transition: margin 0.15s ease-out;
   @include media-breakpoint-up('md') {
     margin-left: 0;
@@ -13,7 +12,7 @@
   &--toggle {
     margin-left: 0;
     @include media-breakpoint-up('md') {
-      margin-left: - $sm-sidebar;
+      margin-left: - $sm-width;
     }
   }
 
@@ -23,7 +22,7 @@
 }
 
 .sidebar__menu {
-  width: $sm-sidebar;
+  width: $sm-width;
 
   &--fixed {
     position: fixed;

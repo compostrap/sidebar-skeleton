@@ -8,8 +8,17 @@ body {
   overflow-x: hidden;
 }
 
-.sidebar {
+.wrapper {
+  min-height: 100vh;
+}
+.wrapper--navbar-used {
   min-height: calc(100vh - 3.5rem);
+}
+.wrapper--navbar-fixed {
+  margin-top: 3.5rem;
+}
+
+.sidebar {
   margin-left: -15.625rem;
   transition: margin 0.15s ease-out;
 }

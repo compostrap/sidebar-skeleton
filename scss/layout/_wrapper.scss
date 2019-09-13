@@ -1,0 +1,15 @@
+//
+// wrapper for content layout
+//
+
+.wrapper {
+  min-height: 100vh;
+
+  &--navbar-used {
+    min-height: calc(100vh - #{$sm-top});
+  }
+
+  &--navbar-fixed {
+    margin-top: $sm-top;
+  }
+}

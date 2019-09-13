@@ -13,7 +13,7 @@
 <body>
 
 <header>
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
 
 		<!-- title -->
 		<a class="navbar-brand" href="#">Sidebar navigation</a>
@@ -25,27 +25,22 @@
 	</nav>
 </header>
 
-<!-- sidebar, content -->
-<div class="d-flex">
+<div class="d-flex wrapper">
 
-	<!-- sidebar -->
 	<nav role="navigation" class="sidebar sidebar--gray-200" id="navigation">
 
-		<!-- sidebar menu -->
+		<!-- sidebar -->
 		<div class="sidebar__menu">
 			<div class="sidebar__menu--fixed"></div>
 		</div>
 	</nav>
 
-	<!-- content -->
-	<main role="main" class="container-fluid"></main>
-</div>
+	<div class="container-fluid">
 
-<footer class="fixed-bottom text-right pt-3 pr-5 pb-2 d-none d-sm-block">
-	<p class="text-muted">
-		<a href="https://github.com/accgit" class="text-muted text-decoration-none" title="Author's website">&copy Accgit</a>
-	</p>
-</footer>
+		<!-- content -->
+		<main role="main"></main>
+	</div>
+</div>
 
 <!-- javascript library -->
 <script src="node_modules/jquery/dist/jquery.js"></script>
