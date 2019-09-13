@@ -9,22 +9,22 @@
     margin-left: 0;
   }
 
-  &--toggle {
+  &-toggle {
     margin-left: 0;
     @include media-breakpoint-up('md') {
       margin-left: - $sm-width;
     }
   }
 
-  &--rounded-top-right {
+  &-rounded-top-right {
     @include border-top-right-radius($border-radius);
   }
 }
 
-.sidebar__menu {
+.sidebar-menu {
   width: $sm-width;
 
-  &--fixed {
+  &-fixed {
     position: fixed;
   }
 }

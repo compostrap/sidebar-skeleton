@@ -7,7 +7,7 @@
 
   // toggle sidebar
   $('#sidebar').on('click', function() {
-    $('#navigation').toggleClass('sidebar--toggle');
+    $('#navigation').toggleClass('sidebar-toggle');
   });
 
 }(jQuery));

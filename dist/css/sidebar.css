@@ -11,10 +11,10 @@ body {
 .wrapper {
   min-height: 100vh;
 }
-.wrapper--navbar-used {
+.wrapper-navbar-used {
   min-height: calc(100vh - 3.5rem);
 }
-.wrapper--navbar-fixed {
+.wrapper-navbar-fixed {
   margin-top: 3.5rem;
 }
 
@@ -27,106 +27,106 @@ body {
     margin-left: 0;
   }
 }
-.sidebar--toggle {
+.sidebar-toggle {
   margin-left: 0;
 }
 @media (min-width: 768px) {
-  .sidebar--toggle {
+  .sidebar-toggle {
     margin-left: -15.625rem;
   }
 }
-.sidebar--rounded-top-right {
+.sidebar-rounded-top-right {
   border-top-right-radius: 0.25rem;
 }
 
-.sidebar__menu {
+.sidebar-menu {
   width: 15.625rem;
 }
-.sidebar__menu--fixed {
+.sidebar-menu-fixed {
   position: fixed;
 }
 
-.sidebar--white {
+.sidebar-white {
   background-color: #fff;
 }
 
-.sidebar--gray-100 {
+.sidebar-gray-100 {
   background-color: #f8f9fa;
 }
 
-.sidebar--gray-200 {
+.sidebar-gray-200 {
   background-color: #e9ecef;
 }
 
-.sidebar--gray-300 {
+.sidebar-gray-300 {
   background-color: #dee2e6;
 }
 
-.sidebar--gray-400 {
+.sidebar-gray-400 {
   background-color: #ced4da;
 }
 
-.sidebar--gray-500 {
+.sidebar-gray-500 {
   background-color: #adb5bd;
 }
 
-.sidebar--gray-600 {
+.sidebar-gray-600 {
   background-color: #6c757d;
 }
 
-.sidebar--gray-700 {
+.sidebar-gray-700 {
   background-color: #495057;
 }
 
-.sidebar--gray-800 {
+.sidebar-gray-800 {
   background-color: #343a40;
 }
 
-.sidebar--gray-900 {
+.sidebar-gray-900 {
   background-color: #212529;
 }
 
-.sidebar--black {
+.sidebar-black {
   background-color: #000;
 }
 
-.sidebar--blue {
+.sidebar-blue {
   background-color: #007bff;
 }
 
-.sidebar--indigo {
+.sidebar-indigo {
   background-color: #6610f2;
 }
 
-.sidebar--purple {
+.sidebar-purple {
   background-color: #6f42c1;
 }
 
-.sidebar--pink {
+.sidebar-pink {
   background-color: #e83e8c;
 }
 
-.sidebar--red {
+.sidebar-red {
   background-color: #dc3545;
 }
 
-.sidebar--orange {
+.sidebar-orange {
   background-color: #fd7e14;
 }
 
-.sidebar--yellow {
+.sidebar-yellow {
   background-color: #ffc107;
 }
 
-.sidebar--green {
+.sidebar-green {
   background-color: #28a745;
 }
 
-.sidebar--teal {
+.sidebar-teal {
   background-color: #20c997;
 }
 
-.sidebar--cyan {
+.sidebar-cyan {
   background-color: #17a2b8;
 }
 
