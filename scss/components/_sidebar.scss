@@ -6,7 +6,6 @@
   min-height: calc(100vh - #{$sm-top});
   margin-left: - $sm-sidebar;
   transition: margin 0.15s ease-out;
-  @include border-top-right-radius($border-radius);
   @include media-breakpoint-up('md') {
     margin-left: 0;
   }
@@ -16,6 +15,10 @@
     @include media-breakpoint-up('md') {
       margin-left: - $sm-sidebar;
     }
+  }
+
+  &--rounded-top-right {
+    @include border-top-right-radius($border-radius);
   }
 }
 

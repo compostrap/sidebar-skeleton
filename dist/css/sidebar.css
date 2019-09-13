@@ -12,7 +12,6 @@ body {
   min-height: calc(100vh - 3.5rem);
   margin-left: -15.625rem;
   transition: margin 0.15s ease-out;
-  border-top-right-radius: 0.25rem;
 }
 @media (min-width: 768px) {
   .sidebar {
@@ -26,6 +25,9 @@ body {
   .sidebar--toggle {
     margin-left: -15.625rem;
   }
+}
+.sidebar--rounded-top-right {
+  border-top-right-radius: 0.25rem;
 }
 
 .sidebar__menu {
