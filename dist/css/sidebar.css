@@ -30,8 +30,11 @@ body {
 .sidebar-toggle {
   margin-left: 0;
 }
+.sidebar-toggle-visible {
+  margin-left: 0;
+}
 @media (min-width: 768px) {
-  .sidebar-toggle {
+  .sidebar-toggle-visible {
     margin-left: -15.625rem;
   }
 }

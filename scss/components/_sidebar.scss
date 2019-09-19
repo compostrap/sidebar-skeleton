@@ -11,6 +11,10 @@
 
   &-toggle {
     margin-left: 0;
+  }
+
+  &-toggle-visible {
+    margin-left: 0;
     @include media-breakpoint-up('md') {
       margin-left: - $sm-width;
     }
