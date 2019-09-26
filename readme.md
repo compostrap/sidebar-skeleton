@@ -26,4 +26,4 @@ npm install --save sidebar-skeleton-compostrap
 - https://compostrap.github.io/skeleton
 
 ## Documentation
-- https://github.com/compostrap/sidebar-skeleton/wiki
+https://github.com/compostrap/sidebar-skeleton/wiki/Getting-started
