@@ -23,14 +23,14 @@ npm install --save sidebar-skeleton-compostrap
 - [jQuery](https://jquery.com)
 
 ## Demo
-[https://compostrap.github.io/skeleton](https://compostrap.github.io/skeleton)
+https://compostrap.github.io/skeleton
 
 ## Introduction
 Simple and fast sidebar skeleton is build on Bootstrap. So you should be aware of how Bootstrap itself is used.
 The advantage is also knowledge of sass, npm, grunt.
 
 ## See the html template code
-[https://raw.githubusercontent.com/compostrap/sidebar-skeleton/master/demo.html](https://raw.githubusercontent.com/compostrap/sidebar-skeleton/master/demo.html)
+https://raw.githubusercontent.com/compostrap/sidebar-skeleton/master/demo.html
 
 ## Customize sidebar when navbar is used
 When we use navbar, we extend the class called **wrapper**
