@@ -35,7 +35,7 @@ The advantage is also knowledge of sass, npm, grunt.
 ## Customize sidebar when navbar is used
 When we use navbar, we extend the class called **wrapper**
 
-| Navbar       | Class name             |
+| Navbar       | Class                  |
 | ------------ | ---------------------- |
 | unused       | `wrapper`              |
 | Used         | `wrapper-navbar-used`  |
@@ -44,7 +44,7 @@ When we use navbar, we extend the class called **wrapper**
 ## Other class
 Optional classes as needed.
 
-| Description                  | Class name                   |
+| Description                  | Class                        |
 | ---------------------------- | ---------------------------- |
 | Right top rounded in sidebar | `sidebar-rounded-top-right`  |
 | Fixed menu in sidebar        | `sidebar-menu-fixed`         |
@@ -52,7 +52,7 @@ Optional classes as needed.
 ## Overview of sidebar background colors
 Colors are the same as bootstrap. Add more colors in [colors.scss](https://github.com/compostrap/sidebar-skeleton/blob/master/scss/themes/_colors.scss)
 
-| Color                                                               | Class name          |
+| Color                                                               | Class               |
 | ------------------------------------------------------------------- | ------------------- |
 | ![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `#ffffff`  | `sidebar-bg-white`  |
 | ![#f8f9fa](https://placehold.it/15/f8f9fa/000000?text=+) `#f8f9fa`  | `sidebar-bg-light`  |
@@ -69,7 +69,7 @@ Colors are the same as bootstrap. Add more colors in [colors.scss](https://githu
 ## jQuery toggle
 If you would like to have your own toggle button visible at all resolutions, we need to change the class in [sidebar.js](https://github.com/compostrap/sidebar-skeleton/blob/master/dist/js/sidebar.js)
 
-| Description              | Class name                |
+| Description              | Class                     |
 | ------------------------ | ------------------------- |
 | Visible in small devices | `sidebar-toggle`          |
 | Visible all resolutions  | `sidebar-toggle-visible`  |
