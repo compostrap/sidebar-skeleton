@@ -5,7 +5,7 @@
 <h3 align="center">Compostrap</h3>
 <p align="center">Simple and fast components build on Bootstrap 4</p>
 
-## Sidebar Skeleton
+## Sidebar skeleton
 Simple and fast sidebar skeleton.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/compostrap/sidebar-skeleton/blob/master/license.md)
