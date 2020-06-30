@@ -1,15 +1,15 @@
 {
   "name": "sidebar-skeleton-compostrap",
-  "version": "1.0.12",
+  "version": "1.0.15",
   "description": "Simple and fast sidebar skeleton on Bootstrap 4",
   "main": "Gruntfile.js",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.14.7"
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.0",
+    "popper.js": "^1.16.0"
   },
   "devDependencies": {
-    "grunt": "^1.0.4",
+    "grunt": "^1.1.0",
     "grunt-contrib-sass": "^1.0.0"
   },
   "author": "Zdeněk Papučík <zdenek.papucik@gmail.com>",
