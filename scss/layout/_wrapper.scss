@@ -6,7 +6,6 @@
   min-height: 100vh;
 
   &-navbar-used {
-    position: relative;
     min-height: calc(100vh - #{$sm-top});
   }
 
