@@ -1,0 +1,6 @@
+@charset "UTF-8";/*!
+ * Sidebar skeleton
+ * Copyright Zdeněk Papučík
+ * MIT License
+*/body{overflow-x:hidden}.wrapper{min-height:100vh}.wrapper-navbar-used{min-height:calc(100vh - 3.5rem)}.wrapper-navbar-fixed{margin-top:3.5rem}.sidebar{margin-left:-14.375rem;transition:margin .15s ease-out}@media (min-width:768px){.sidebar{margin-left:0}}.sidebar-toggle{margin-left:0}.sidebar-toggle-visible{margin-left:0}@media (min-width:768px){.sidebar-toggle-visible{margin-left:-14.375rem}}.sidebar-rounded-top-right{border-top-right-radius:.25rem}.sidebar-menu{width:14.375rem}.sidebar-menu-fixed{position:fixed}.sidebar-bg-white{background-color:#fff}.sidebar-bg-light{background-color:#f8f9fa}.sidebar-bg-dark{background-color:#343a40}.sidebar-bg-blue{background-color:#007bff}.sidebar-bg-purple{background-color:#6f42c1}.sidebar-bg-pink{background-color:#e83e8c}.sidebar-bg-red{background-color:#dc3545}.sidebar-bg-orange{background-color:#fd7e14}.sidebar-bg-green{background-color:#28a745}.sidebar-bg-teal{background-color:#20c997}.sidebar-bg-cyan{background-color:#17a2b8}
+/*# sourceMappingURL=sidebar.min.css.map */
