@@ -10,7 +10,7 @@ Simple and fast sidebar skeleton.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/compostrap/sidebar-skeleton/blob/master/license.md)
 [![npm version](https://badge.fury.io/js/sidebar-skeleton-compostrap.svg)](https://badge.fury.io/js/sidebar-skeleton-compostrap)
-[![Build Status](https://travis-ci.org/compostrap/sidebar-skeleton.svg?branch=master)](https://travis-ci.org/compostrap/sidebar-skeleton)
+[![Build Status](https://travis-ci.com/compostrap/sidebar-skeleton.svg?branch=master)](https://travis-ci.org/compostrap/sidebar-skeleton)
 [![CodeFactor](https://www.codefactor.io/repository/github/compostrap/sidebar-skeleton/badge)](https://www.codefactor.io/repository/github/compostrap/sidebar-skeleton)
 
 ## Installation
