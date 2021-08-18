@@ -21,7 +21,7 @@
   }
 
   &-rounded-top-right {
-    @include border-top-right-radius($border-radius);
+    @include border-top-end-radius($border-radius);
   }
 }
 

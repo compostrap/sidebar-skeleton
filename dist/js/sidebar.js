@@ -3,11 +3,7 @@
  * Copyright Zdeněk Papučík
  * MIT License
  */
-(function($) {
-
-  // toggle sidebar
-  $('#sidebar').on('click', function() {
-    $('#navigation').toggleClass('sidebar-toggle');
-  });
-
-}(jQuery));
+document.getElementById('sidebar').addEventListener('click', () => {
+  const element = document.getElementById('navigation');
+  element.classList.toggle('sidebar-toggle');
+});
