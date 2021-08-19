@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">Compostrap</h3>
-<p align="center">Simple and fast components build on Bootstrap 4 and 5</p>
+<p align="center">Simple and fast components build on Bootstrap</p>
 
 ## Sidebar skeleton
 Simple and fast sidebar skeleton.
@@ -18,8 +18,11 @@ Simple and fast sidebar skeleton.
 npm install --save sidebar-skeleton-compostrap
 ```
 
+Version 1x built on Bootstrap 4  
+Version 2x built on Bootstrap 5
+
 ## Built on
-- [Bootstrap 4](https://getbootstrap.com)
+- [Bootstrap](https://getbootstrap.com)
 - [jQuery](https://jquery.com)
 
 ## Demo
