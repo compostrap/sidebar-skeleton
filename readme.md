@@ -23,7 +23,6 @@ Version 2x built on Bootstrap 5
 
 ## Built on
 - [Bootstrap](https://getbootstrap.com)
-- [jQuery](https://jquery.com)
 
 ## Demo
 https://compostrap.github.io/skeleton
