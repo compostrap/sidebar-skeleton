@@ -1,8 +1,7 @@
 {
   "name": "sidebar-skeleton-compostrap",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Simple and fast sidebar skeleton on Bootstrap",
-  "main": "Gruntfile.js",
   "dependencies": {
     "bootstrap": "^5.1.0",
     "@popperjs/core": "^2.9.3"
@@ -22,6 +21,9 @@
     "watch": "nodemon -e scss -x \"npm run scss\"",
     "server": "serve --listen 3000"
   },
+  "style": "dist/css/sidebar.css",
+  "sass": "scss/sidebar.scss",
+  "main": "dist/js/sidebar.js",
   "author": "Zdeněk Papučík <zdenek.papucik@gmail.com>",
   "license": "MIT",
   "keywords": [
