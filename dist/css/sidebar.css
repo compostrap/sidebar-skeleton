@@ -11,11 +11,9 @@ body {
 .wrapper {
   min-height: 100vh;
 }
-
 .wrapper-navbar-used {
   min-height: calc(100vh - 3.5rem);
 }
-
 .wrapper-navbar-fixed {
   margin-top: 3.5rem;
 }
@@ -24,27 +22,22 @@ body {
   margin-left: -14.375rem;
   transition: margin 0.15s ease-out;
 }
-
 @media (min-width: 768px) {
   .sidebar {
     margin-left: 0;
   }
 }
-
 .sidebar-toggle {
   margin-left: 0;
 }
-
 .sidebar-toggle-visible {
   margin-left: 0;
 }
-
 @media (min-width: 768px) {
   .sidebar-toggle-visible {
     margin-left: -14.375rem;
   }
 }
-
 .sidebar-rounded-top-right {
   border-top-right-radius: 0.25rem;
 }
@@ -52,7 +45,6 @@ body {
 .sidebar-menu {
   width: 14.375rem;
 }
-
 .sidebar-menu-fixed {
   position: fixed;
 }

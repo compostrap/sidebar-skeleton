@@ -1,6 +1,8 @@
 /// convert px to rem
 /// {number} $pixels unit in pixels
 /// {number} $context default browser size
+
+@use "sass:math";
 @function rem($pixels, $context: $browser-context) {
-  @return #{$pixels / $context}rem;
+  @return math.div($pixels, $context) + rem;
 }

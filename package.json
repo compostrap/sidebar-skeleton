@@ -1,6 +1,6 @@
 {
   "name": "sidebar-skeleton-compostrap",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Simple and fast sidebar skeleton on Bootstrap",
   "dependencies": {
     "bootstrap": "^5.1.0",
@@ -8,15 +8,15 @@
   },
   "devDependencies": {
     "clean-css-cli": "^5.3.3",
-    "node-sass": "^6.0.1",
+    "sass": "^1.38.0",
     "nodemon": "^2.0.12",
     "serve": "^12.0.0",
     "uglify-js-es6": "^2.8.9"
   },
   "scripts": {
     "build": "npm run scss && npm run css-minify && npm run uglify",
-    "scss": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss -o dist/css/",
-    "css-minify": "cleancss -O1 --source-map --source-map-inline-sources --output dist/css/sidebar.min.css dist/css/sidebar.css",
+    "scss": "sass scss/sidebar.scss dist/css/sidebar.css",
+    "css-minify": "cleancss -O1 --output dist/css/sidebar.min.css dist/css/sidebar.css",
     "uglify": "uglifyjs -o dist/js/sidebar.min.js dist/js/sidebar.js",
     "watch": "nodemon -e scss -x \"npm run scss\"",
     "server": "serve --listen 3000"
