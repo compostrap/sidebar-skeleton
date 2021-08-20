@@ -1,11 +1,11 @@
 {
   "name": "sidebar-skeleton-compostrap",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Simple and fast sidebar skeleton on Bootstrap",
   "main": "Gruntfile.js",
   "dependencies": {
     "bootstrap": "^5.1.0",
-    "popper.js": "^1.16.1"
+    "@popperjs/core": "^2.9.3"
   },
   "devDependencies": {
     "clean-css-cli": "^5.3.3",
