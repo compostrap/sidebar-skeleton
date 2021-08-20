@@ -1,5 +1,5 @@
 /*!
- * Sidebar for Bootstrap 4
+ * Sidebar for Bootstrap
  * Copyright Zdeněk Papučík
  * MIT License
  */
