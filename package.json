@@ -21,9 +21,6 @@
     "watch": "nodemon -e scss -x \"npm run scss\"",
     "server": "serve --listen 3000"
   },
-  "style": "dist/css/sidebar.css",
-  "sass": "scss/sidebar.scss",
-  "main": "dist/js/sidebar.js",
   "author": "Zdeněk Papučík <zdenek.papucik@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -31,6 +28,9 @@
     "menu",
     "bootstrap"
   ],
+  "style": "dist/css/sidebar.css",
+  "sass": "scss/sidebar.scss",
+  "main": "dist/js/sidebar.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/compostrap/sidebar-skeleton.git"
