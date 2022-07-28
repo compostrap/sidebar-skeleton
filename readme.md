@@ -49,17 +49,17 @@ Colors are the same as bootstrap. Add more colors in [colors.scss](https://githu
 
 | Color                                                           | Class               |
 | --------------------------------------------------------------- | ------------------- |
-| ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) | `sidebar-bg-white`  |
-| ![#f8f9fa](https://via.placeholder.com/15/f8f9fa/000000?text=+) | `sidebar-bg-light`  |
-| ![#212529](https://via.placeholder.com/15/212529/000000?text=+) | `sidebar-bg-dark`   |
-| ![#007bff](https://via.placeholder.com/15/007bff/000000?text=+) | `sidebar-bg-blue`   |
-| ![#6f42c1](https://via.placeholder.com/15/6f42c1/000000?text=+) | `sidebar-bg-purple` |
-| ![#e83e8c](https://via.placeholder.com/15/e83e8c/000000?text=+) | `sidebar-bg-pink`   |
-| ![#dc3545](https://via.placeholder.com/15/dc3545/000000?text=+) | `sidebar-bg-red`    |
-| ![#fd7e14](https://via.placeholder.com/15/fd7e14/000000?text=+) | `sidebar-bg-orange` |
-| ![#28a745](https://via.placeholder.com/15/28a745/000000?text=+) | `sidebar-bg-green`  |
-| ![#20c997](https://via.placeholder.com/15/20c997/000000?text=+) | `sidebar-bg-teal`   |
-| ![#17a2b8](https://via.placeholder.com/15/17a2b8/000000?text=+) | `sidebar-bg-cyan`   |
+| ![#ffffff](https://via.placeholder.com/15/ffffff/ffffff.png) | `sidebar-bg-white`  |
+| ![#f8f9fa](https://via.placeholder.com/15/f8f9fa/f8f9fa.png) | `sidebar-bg-light`  |
+| ![#212529](https://via.placeholder.com/15/212529/212529.png) | `sidebar-bg-dark`   |
+| ![#007bff](https://via.placeholder.com/15/007bff/007bff.png) | `sidebar-bg-blue`   |
+| ![#6f42c1](https://via.placeholder.com/15/6f42c1/6f42c1.png) | `sidebar-bg-purple` |
+| ![#e83e8c](https://via.placeholder.com/15/e83e8c/e83e8c.png) | `sidebar-bg-pink`   |
+| ![#dc3545](https://via.placeholder.com/15/dc3545/dc3545.png) | `sidebar-bg-red`    |
+| ![#fd7e14](https://via.placeholder.com/15/fd7e14/fd7e14.png) | `sidebar-bg-orange` |
+| ![#28a745](https://via.placeholder.com/15/28a745/28a745.png) | `sidebar-bg-green`  |
+| ![#20c997](https://via.placeholder.com/15/20c997/20c997.png) | `sidebar-bg-teal`   |
+| ![#17a2b8](https://via.placeholder.com/15/17a2b8/17a2b8.png) | `sidebar-bg-cyan`   |
 
 ## jQuery toggle
 If you would like to have your own toggle button visible at all resolutions, we need to change the class in [sidebar.js](https://github.com/compostrap/sidebar-skeleton/blob/master/dist/js/sidebar.js)
