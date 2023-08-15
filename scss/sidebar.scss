@@ -6,17 +6,14 @@
 */
 
 // bootstrap
-@import '../node_modules/bootstrap/scss/functions';
-@import '../node_modules/bootstrap/scss/variables';
-@import '../node_modules/bootstrap/scss/mixins';
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
 
 // sidebar skeleton
-@import 'utils/functions';
-@import 'utils/variables';
-
-@import 'base/body';
-@import 'layout/wrapper';
-@import 'components/sidebar';
-
-@import 'themes/colors';
-@import 'themes/theme';
+@import "utils/variables";
+@import "base/body";
+@import "layout/wrapper";
+@import "components/sidebar";
+@import "themes/colors";
+@import "themes/theme";

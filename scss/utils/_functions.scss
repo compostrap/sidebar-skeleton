@@ -3,6 +3,6 @@
 /// {number} $context default browser size
 
 @use "sass:math";
-@function rem($pixels, $context: $browser-context) {
-  @return math.div($pixels, $context) + rem;
+@function toRem($pixels) {
+  @return math.div($pixels, 16) + rem;
 }

@@ -1,6 +1,5 @@
-// browser default value
-$browser-context: 16;
-
 // sidebar settings
-$sm-width: rem(230);
-$sm-top: rem(56);
+@import "../utils/functions";
+
+$sm-width: toRem(230);
+$sm-top: toRem(56);
