@@ -10,11 +10,11 @@
   ],
   "exports": {
     ".": {
-      "import": "dist/sidebar.js",
-      "style": "dist/sidebar.scss"
+      "import": "./dist/sidebar.js",
+      "style": "./dist/sidebar.css"
     },
     "./scss": {
-      "import": "scss/sidebar.scss"
+      "import": "./scss/sidebar.scss"
     }
   },
   "dependencies": {
