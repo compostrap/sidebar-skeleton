@@ -2,10 +2,26 @@
 // theme default
 //
 
+@use "sass:map";
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$theme-colors: (
+        'bg-white':  ('sidebar-bg': $white),
+        'bg-light':  ('sidebar-bg': $gray-100),
+        'bg-dark':   ('sidebar-bg': $gray-800),
+        'bg-blue':   ('sidebar-bg': $blue),
+        'bg-purple': ('sidebar-bg': $purple),
+        'bg-pink':   ('sidebar-bg': $pink),
+        'bg-red':    ('sidebar-bg': $red),
+        'bg-orange': ('sidebar-bg': $orange),
+        'bg-green':  ('sidebar-bg': $green),
+        'bg-teal':   ('sidebar-bg': $teal),
+        'bg-cyan':   ('sidebar-bg': $cyan),
+);
+
 @each $theme, $map in $theme-colors {
-
   .sidebar-#{$theme} {
-    background-color: map-get($map, sidebar-bg);
+    background-color: map.get($map, 'sidebar-bg');
   }
-
 }

@@ -2,41 +2,20 @@
   "name": "sidebar-skeleton-compostrap",
   "version": "2.0.8",
   "description": "Simple and fast sidebar skeleton on Bootstrap",
-  "dependencies": {
-    "bootstrap": "^5.3.1",
-    "@popperjs/core": "^2.11.8"
-  },
-  "devDependencies": {
-    "clean-css-cli": "^5.6.2",
-    "sass": "^1.65.1",
-    "nodemon": "^3.0.1",
-    "serve": "^14.2.0",
-    "uglify-js-es6": "^2.8.9"
-  },
-  "scripts": {
-    "build": "npm run scss && npm run css-minify && npm run uglify",
-    "scss": "sass -I node_modules scss/sidebar.scss dist/css/sidebar.css",
-    "css-minify": "cleancss -O1 --output dist/css/sidebar.min.css dist/css/sidebar.css",
-    "uglify": "uglifyjs -o dist/js/sidebar.min.js dist/js/sidebar.js",
-    "watch": "nodemon -e scss -x \"npm run scss\"",
-    "server": "serve --listen 3000"
-  },
-  "author": "Zdeněk Papučík <zdenek.papucik@gmail.com>",
   "license": "MIT",
   "keywords": [
     "sidebar",
     "menu",
     "bootstrap"
   ],
-  "style": "dist/css/sidebar.css",
-  "sass": "scss/sidebar.scss",
-  "main": "dist/js/sidebar.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/compostrap/sidebar-skeleton.git"
+  "dependencies": {
+    "bootstrap": "^5.3.1"
   },
-  "bugs": {
-    "url": "https://github.com/compostrap/sidebar-skeleton/issues"
+  "devDependencies": {
+    "vite": "^7.3.0",
+    "sass": "^1.97.1"
   },
-  "homepage": "https://github.com/compostrap/sidebar-skeleton#readme"
+  "scripts": {
+    "build": "vite build"
+  }
 }

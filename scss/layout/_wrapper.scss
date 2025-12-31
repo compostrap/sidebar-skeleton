@@ -2,14 +2,16 @@
 // wrapper for content layout
 //
 
+@use "../utils" as utils;
+
 .wrapper {
   min-height: 100vh;
 
   &-navbar-used {
-    min-height: calc(100vh - #{$sm-top});
+    min-height: calc(100vh - #{utils.$sm-top});
   }
 
   &-navbar-fixed {
-    margin-top: $sm-top;
+    margin-top: utils.$sm-top;
   }
 }

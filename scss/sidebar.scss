@@ -1,19 +1,9 @@
-@charset "UTF-8";
-/*!
- * Sidebar skeleton
- * Copyright Zdeněk Papučík
- * MIT License
-*/
-
-// bootstrap
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/mixins";
-
+//
 // sidebar skeleton
-@import "utils/variables";
-@import "base/body";
-@import "layout/wrapper";
-@import "components/sidebar";
-@import "themes/colors";
-@import "themes/theme";
+//
+
+@use "utils/variables";
+@use "base/body";
+@use "layout/wrapper";
+@use "components/sidebar";
+@use "themes/theme";
