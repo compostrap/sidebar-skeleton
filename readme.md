@@ -45,19 +45,19 @@ Fixed menu in sidebar        | sidebar-menu-fixed
 ## Overview of sidebar background colors
 Colors match Bootstrap. Add more colors in themes/_theme.scss.
 
-Color      | Class
----------- | ------------------
-| <svg width="15" height="15"><rect width="15" height="15" fill="#ffffff"/></svg> | sidebar-bg-white
-| <svg width="15" height="15"><rect width="15" height="15" fill="#f8f9fa"/></svg> | sidebar-bg-light
-| <svg width="15" height="15"><rect width="15" height="15" fill="#212529"/></svg> | sidebar-bg-dark
-| <svg width="15" height="15"><rect width="15" height="15" fill="#007bff"/></svg> | sidebar-bg-blue
-| <svg width="15" height="15"><rect width="15" height="15" fill="#6f42c1"/></svg> | sidebar-bg-purple
-| <svg width="15" height="15"><rect width="15" height="15" fill="#e83e8c"/></svg> | sidebar-bg-pink
-| <svg width="15" height="15"><rect width="15" height="15" fill="#dc3545"/></svg> | sidebar-bg-red
-| <svg width="15" height="15"><rect width="15" height="15" fill="#fd7e14"/></svg> | sidebar-bg-orange
-| <svg width="15" height="15"><rect width="15" height="15" fill="#28a745"/></svg> | sidebar-bg-green
-| <svg width="15" height="15"><rect width="15" height="15" fill="#20c997"/></svg> | sidebar-bg-teal
-| <svg width="15" height="15"><rect width="15" height="15" fill="#17a2b8"/></svg> | sidebar-bg-cyan
+| Color | Class
+| ----- | -----
+| ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) | sidebar-bg-white
+| ![#f8f9fa](https://via.placeholder.com/15/f8f9fa/000000?text=+) | sidebar-bg-light
+| ![#212529](https://via.placeholder.com/15/212529/ffffff?text=+) | sidebar-bg-dark
+| ![#007bff](https://via.placeholder.com/15/007bff/ffffff?text=+) | sidebar-bg-blue
+| ![#6f42c1](https://via.placeholder.com/15/6f42c1/ffffff?text=+) | sidebar-bg-purple
+| ![#e83e8c](https://via.placeholder.com/15/e83e8c/ffffff?text=+) | sidebar-bg-pink
+| ![#dc3545](https://via.placeholder.com/15/dc3545/ffffff?text=+) | sidebar-bg-red
+| ![#fd7e14](https://via.placeholder.com/15/fd7e14/ffffff?text=+) | sidebar-bg-orange
+| ![#28a745](https://via.placeholder.com/15/28a745/ffffff?text=+) | sidebar-bg-green
+| ![#20c997](https://via.placeholder.com/15/20c997/ffffff?text=+) | sidebar-bg-teal
+| ![#17a2b8](https://via.placeholder.com/15/17a2b8/ffffff?text=+) | sidebar-bg-cyan
 
 ## Sidebar menu toggle
 If you want your own toggle button visible at all resolutions, update the class in sidebar.js:
