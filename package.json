@@ -8,6 +8,15 @@
     "menu",
     "bootstrap"
   ],
+  "exports": {
+    ".": {
+      "import": "dist/sidebar.js",
+      "style": "dist/sidebar.scss"
+    },
+    "./scss": {
+      "import": "scss/sidebar.scss"
+    }
+  },
   "dependencies": {
     "bootstrap": "^5.3.1"
   },
