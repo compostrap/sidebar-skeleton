@@ -12,9 +12,6 @@ Ideal for dashboards, admin panels, and any layout needing a responsive sidebar.
 npm install --save sidebar-skeleton-compostrap
 ```
 
-Version 1.x built on Bootstrap 4
-Version 2.x built on Bootstrap 5
-
 ## Built on
 - Bootstrap: https://getbootstrap.com
 
