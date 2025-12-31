@@ -45,19 +45,19 @@ Fixed menu in sidebar        | sidebar-menu-fixed
 ## Overview of sidebar background colors
 Colors match Bootstrap. Add more colors in themes/_theme.scss.
 
-| Color | Class
-| ----- | -----
-| ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) | sidebar-bg-white
-| ![#f8f9fa](https://via.placeholder.com/15/f8f9fa/000000?text=+) | sidebar-bg-light
-| ![#212529](https://via.placeholder.com/15/212529/ffffff?text=+) | sidebar-bg-dark
-| ![#007bff](https://via.placeholder.com/15/007bff/ffffff?text=+) | sidebar-bg-blue
-| ![#6f42c1](https://via.placeholder.com/15/6f42c1/ffffff?text=+) | sidebar-bg-purple
-| ![#e83e8c](https://via.placeholder.com/15/e83e8c/ffffff?text=+) | sidebar-bg-pink
-| ![#dc3545](https://via.placeholder.com/15/dc3545/ffffff?text=+) | sidebar-bg-red
-| ![#fd7e14](https://via.placeholder.com/15/fd7e14/ffffff?text=+) | sidebar-bg-orange
-| ![#28a745](https://via.placeholder.com/15/28a745/ffffff?text=+) | sidebar-bg-green
-| ![#20c997](https://via.placeholder.com/15/20c997/ffffff?text=+) | sidebar-bg-teal
-| ![#17a2b8](https://via.placeholder.com/15/17a2b8/ffffff?text=+) | sidebar-bg-cyan
+| Color                                                           | Class
+| --------------------------------------------------------------- | -------------------
+| <code>#ffffff <span class="ml-1 d-inline-block border circle color-border-subtle" style="background-color: #ffffff; height: 15px; width: 15px;"></span></code> | sidebar-bg-white
+| <code>#f8f9fa <span class="ml-1 d-inline-block border circle color-border-subtle" style="background-color: #f8f9fa; height: 15px; width: 15px;"></span></code> | sidebar-bg-light
+| <code>#212529 <span class="ml-1 d-inline-block border circle color-border-subtle" style="background-color: #212529; height: 15px; width: 15px;"></span></code> | sidebar-bg-dark
+| <code>#007bff <span class="ml-1 d-inline-block border circle color-border-subtle" style="background-color: #007bff; height: 15px; width: 15px;"></span></code> | sidebar-bg-blue
+| <code>#6f42c1 <span class="ml-1 d-inline-block border circle color-border-subtle" style="background-color: #6f42c1; height: 15px; width: 15px;"></span></code> | sidebar-bg-purple
+| <code>#e83e8c <span class="ml-1 d-inline-block border circle color-border-subtle" style="background-color: #e83e8c; height: 15px; width: 15px;"></span></code> | sidebar-bg-pink
+| <code>#dc3545 <span class="ml-1 d-inline-block border circle color-border-subtle" style="background-color: #dc3545; height: 15px; width: 15px;"></span></code> | sidebar-bg-red
+| <code>#fd7e14 <span class="ml-1 d-inline-block border circle color-border-subtle" style="background-color: #fd7e14; height: 15px; width: 15px;"></span></code> | sidebar-bg-orange
+| <code>#28a745 <span class="ml-1 d-inline-block border circle color-border-subtle" style="background-color: #28a745; height: 15px; width: 15px;"></span></code> | sidebar-bg-green
+| <code>#20c997 <span class="ml-1 d-inline-block border circle color-border-subtle" style="background-color: #20c997; height: 15px; width: 15px;"></span></code> | sidebar-bg-teal
+| <code>#17a2b8 <span class="ml-1 d-inline-block border circle color-border-subtle" style="background-color: #17a2b8; height: 15px; width: 15px;"></span></code> | sidebar-bg-cyan
 
 ## Sidebar menu toggle
 If you want your own toggle button visible at all resolutions, update the class in sidebar.js:
