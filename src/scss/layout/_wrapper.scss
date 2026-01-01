@@ -2,7 +2,7 @@
 // wrapper for content layout
 //
 
-@use "../utils" as utils;
+@use "../utils/index" as utils;
 
 .wrapper {
   min-height: 100vh;

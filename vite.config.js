@@ -1,26 +1,33 @@
-import path from 'path';
+import { defineConfig } from 'vite'
+import path from 'path'
 
-export default {
-	publicDir: 'public',
+export default defineConfig({
+	base: '',
+	server: {
+		fs: {
+			allow: ['.', 'dist']
+		}
+	},
 	build: {
 		outDir: 'dist',
 		emptyOutDir: true,
+		lib: {
+			entry: path.resolve(__dirname, 'vite.build.js'),
+			formats: ['es'],
+			fileName: () => 'sidebar.js',
+		},
+		cssMinify: false,
 		rollupOptions: {
 			output: {
-				manualChunks: undefined,
-				chunkFileNames: '[name].js',
-				entryFileNames: '[name].js',
-				assetFileNames: '[name].[ext]',
+				assetFileNames: 'sidebar.[ext]',
 			},
-			input: {
-				sidebar: './vite.main.js',
-			}
-		}
-	},
-	css: {
-		devSourcemap: true,
-		preprocessorOptions: {
-			scss: { quietDeps: true },
 		},
-	}
-};
+		css: {
+			preprocessorOptions: {
+				scss: {
+					quietDeps: true
+				},
+			},
+		},
+	},
+})
