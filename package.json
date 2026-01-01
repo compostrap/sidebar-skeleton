@@ -10,7 +10,7 @@
   ],
   "main": "dist/sidebar.js",
   "style": "dist/sidebar.css",
-  "sass": "scss/sidebar.scss",
+  "sass": "src/scss/sidebar.scss",
   "devDependencies": {
     "sass": "^1.70.0",
     "vite": "^7.3.0"
