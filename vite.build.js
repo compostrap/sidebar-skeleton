@@ -2,4 +2,4 @@
 import './src/scss/sidebar.scss';
 
 // JS → sidebar.min.js
-import './src/sidebar.js';
+import './src/sidebar';
