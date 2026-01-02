@@ -8,7 +8,7 @@ Simple and fast sidebar skeleton built on Bootstrap 5.
 
 ## Installation
 ```bash
-npm npm install sidebar-skeleton-compostrap
+npm install sidebar-skeleton-compostrap
 ```
 
 ## Built on
