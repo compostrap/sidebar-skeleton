@@ -21,7 +21,7 @@ HTML template code: https://raw.githubusercontent.com/compostrap/sidebar-skeleto
 
 ## Introduction
 Simple and fast sidebar skeleton is built on Bootstrap.
-You should be familiar with Bootstrap usage and have basic knowledge of Sass, npm, and optionally Grunt.
+You should be familiar with Bootstrap usage and have basic knowledge of Sass, npm.
 
 ## Customize sidebar when navbar is used
 When using a navbar, extend the class called wrapper:
