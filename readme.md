@@ -9,7 +9,7 @@ Ideal for dashboards, admin panels, and any layout needing a responsive sidebar.
 
 ## Installation
 ```bash
-npm install --save sidebar-skeleton-compostrap
+npm npm install sidebar-skeleton-compostrap
 ```
 
 ## Built on
