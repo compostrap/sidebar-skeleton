@@ -40,7 +40,7 @@ When using a navbar, extend the class called wrapper:
 | Fixed menu in sidebar        | sidebar-menu-fixed        |
 
 ## Overview of sidebar background colors
-Colors match Bootstrap. Add more colors in themes/_theme.scss.
+Colors match Bootstrap.
 
 | Color                                                    | Class             |
 |----------------------------------------------------------|-------------------|
