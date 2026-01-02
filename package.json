@@ -12,7 +12,7 @@
   "style": "dist/sidebar.css",
   "sass": "src/scss/sidebar.scss",
   "devDependencies": {
-    "sass": "^1.70.0",
+    "sass": "^1.97.1",
     "vite": "^7.3.0"
   },
   "peerDependencies": {
