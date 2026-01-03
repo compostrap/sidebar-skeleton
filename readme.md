@@ -16,7 +16,6 @@ npm install sidebar-skeleton-compostrap
 
 ## Demo
 Live demo: https://compostrap.github.io/skeleton
-HTML template code: https://raw.githubusercontent.com/compostrap/sidebar-skeleton/master/demo.html
 
 ## Introduction
 Simple and fast sidebar skeleton is built on Bootstrap.
