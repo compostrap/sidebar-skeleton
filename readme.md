@@ -12,7 +12,7 @@ npm install sidebar-skeleton-compostrap
 ```
 
 ## Built on
-- Bootstrap 5x: https://getbootstrap.com
+- Bootstrap 5: https://getbootstrap.com
 
 ## Demo
 Live demo: https://compostrap.github.io/skeleton
