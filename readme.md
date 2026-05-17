@@ -10,6 +10,26 @@ Simple and fast sidebar skeleton built on Bootstrap 5.
 npm install sidebar-skeleton-compostrap
 ```
 
+## Usage
+Import the styles and initialize the components in your JavaScript entry point:
+
+```javascript
+import 'sidebar-skeleton-compostrap/sidebar.css';
+import { SidebarSkeleton } from 'sidebar-skeleton-compostrap';
+
+// Initialize both Sidebar and ThemeSwitcher
+SidebarSkeleton.init();
+```
+
+Alternatively, you can initialize components individually:
+
+```javascript
+import { Sidebar, ThemeSwitcher } from 'sidebar-skeleton-compostrap';
+
+Sidebar.init();
+ThemeSwitcher.init();
+```
+
 ## Built on
 - [Bootstrap 5](https://getbootstrap.com)
 

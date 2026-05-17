@@ -3,9 +3,15 @@
  * Copyright Zdeněk Papučík
  * MIT License
  */
-document.addEventListener('DOMContentLoaded', () => {
-	document.getElementById('sidebar').addEventListener('click', () => {
-		const element = document.getElementById('navigation');
-		element.classList.toggle('sidebar-toggle');
-	});
-});
+export class Sidebar {
+	static init() {
+		const sidebar = document.getElementById("sidebar");
+		const navigation = document.getElementById("navigation");
+
+		if (sidebar && navigation) {
+			sidebar.addEventListener("click", () => {
+				navigation.classList.toggle("sidebar-toggle");
+			});
+		}
+	}
+}

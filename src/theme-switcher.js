@@ -2,31 +2,44 @@
  * Theme switcher for Sidebar
  * Persistent theme selection using localStorage
  */
-document.addEventListener('DOMContentLoaded', () => {
-	const themeToggle = document.getElementById('theme-toggle');
-	const sidebar = document.getElementById('navigation');
-	const storageKey = 'sidebar-theme';
+export class ThemeSwitcher {
+	static init() {
+		const toggle = document.getElementById("theme-toggle");
+		const navigation = document.getElementById("navigation");
 
-	// Load theme from localStorage or use the current attribute as default
-	const savedTheme = localStorage.getItem(storageKey) || sidebar.getAttribute('data-sidebar-theme') || 'light';
-	sidebar.setAttribute('data-sidebar-theme', savedTheme);
-	updateToggleButton(savedTheme);
-
-	themeToggle.addEventListener('click', (e) => {
-		e.preventDefault();
-		const currentTheme = sidebar.getAttribute('data-sidebar-theme');
-		const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-
-		sidebar.setAttribute('data-sidebar-theme', newTheme);
-		localStorage.setItem(storageKey, newTheme);
-		updateToggleButton(newTheme);
-	});
-
-	function updateToggleButton(theme) {
-		if (theme === 'dark') {
-			themeToggle.innerText = 'Switch to light';
-		} else {
-			themeToggle.innerText = 'Switch to dark';
+		if (!toggle || !navigation) {
+			return;
 		}
+
+		const storageKey = "sidebar-theme";
+		const themeAttr = "data-sidebar-theme";
+
+		const currentTheme =
+			localStorage.getItem(storageKey) ||
+			navigation.getAttribute(themeAttr) ||
+			"light";
+
+		navigation.setAttribute(themeAttr, currentTheme);
+		this._render(toggle, currentTheme);
+
+		toggle.addEventListener("click", (event) => {
+			event.preventDefault();
+
+			const nextTheme =
+				navigation.getAttribute(themeAttr) === "light"
+					? "dark"
+					: "light";
+
+			navigation.setAttribute(themeAttr, nextTheme);
+			localStorage.setItem(storageKey, nextTheme);
+			this._render(toggle, nextTheme);
+		});
 	}
-});
+
+	static _render(toggle, theme) {
+		toggle.innerText =
+			theme === "dark"
+				? "Switch to light"
+				: "Switch to dark";
+	}
+}

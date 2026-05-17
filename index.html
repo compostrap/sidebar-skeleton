@@ -52,8 +52,13 @@
 </div>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-<script src="dist/sidebar.js"></script>
-<script src="dist/theme-switcher.js"></script>
+<script type="module">
+	import { Sidebar, ThemeSwitcher } from "./dist/index.js";
+	document.addEventListener('DOMContentLoaded', () => {
+		Sidebar.init();
+		ThemeSwitcher.init();
+	});
+</script>
 
 </body>
 </html>

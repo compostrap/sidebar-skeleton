@@ -1,6 +1,7 @@
 {
   "name": "sidebar-skeleton-compostrap",
-  "version": "2.1.0",
+  "version": "2.1.1",
+  "type": "module",
   "description": "Simple and fast sidebar skeleton built on Bootstrap 5.",
   "license": "MIT",
   "keywords": [
@@ -8,9 +9,12 @@
     "menu",
     "bootstrap"
   ],
-  "main": "dist/sidebar.js",
-  "style": "dist/sidebar.css",
-  "sass": "src/scss/sidebar.scss",
+  "exports": {
+    ".": "./dist/index.js",
+    "./sidebar": "./dist/sidebar.js",
+    "./theme-switcher": "./dist/theme-switcher.js",
+    "./sidebar.css": "./dist/sidebar.css"
+  },
   "devDependencies": {
     "sass": "^1.97.1",
     "vite": "^7.3.0"
