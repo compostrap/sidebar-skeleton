@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  background-color: var(--bs-light);
 }
 
 .wrapper {
@@ -43,46 +44,36 @@ body {
   position: fixed;
 }
 
-.sidebar-bg-white {
-  background-color: #fff;
+.shadow-soft {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.12), 0 10px 30px rgba(0, 0, 0, 0.04), 0 1px 8px rgba(0, 0, 0, 0.02) !important;
 }
 
-.sidebar-bg-light {
-  background-color: #f8f9fa;
+#theme-toggle {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  color: var(--bs-navbar-color);
+  text-decoration: none;
+  transition: color 0.15s ease-in-out;
+}
+#theme-toggle:hover {
+  color: var(--bs-navbar-hover-color);
+}
+#theme-toggle:focus {
+  box-shadow: none;
+  outline: none;
 }
 
-.sidebar-bg-dark {
-  background-color: #343a40;
+[data-sidebar-theme=light] {
+  --sm-sidebar-bg: #fff;
 }
 
-.sidebar-bg-blue {
-  background-color: #0d6efd;
+[data-sidebar-theme=dark] {
+  --sm-sidebar-bg: #343a40;
 }
 
-.sidebar-bg-purple {
-  background-color: #6f42c1;
-}
-
-.sidebar-bg-pink {
-  background-color: #d63384;
-}
-
-.sidebar-bg-red {
-  background-color: #dc3545;
-}
-
-.sidebar-bg-orange {
-  background-color: #fd7e14;
-}
-
-.sidebar-bg-green {
-  background-color: #198754;
-}
-
-.sidebar-bg-teal {
-  background-color: #20c997;
-}
-
-.sidebar-bg-cyan {
-  background-color: #0dcaf0;
+.sidebar {
+  background-color: var(--sm-sidebar-bg, #fff);
 }

@@ -18,17 +18,25 @@
 			<!-- title -->
 			<a class="navbar-brand" href="#">Sidebar navigation</a>
 
-			<!-- sidebar toggle -->
-			<button class="navbar-toggler btn btn-link border-0" type="button" id="sidebar" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+			<div class="ms-auto d-flex align-items-center">
+
+				<!-- theme toggle -->
+				<button class="btn btn-link nav-link py-2 px-0 px-lg-2 border-0" id="theme-toggle" type="button" aria-label="Toggle theme">
+					Switch to light
+				</button>
+
+				<!-- sidebar toggle -->
+				<button class="navbar-toggler btn btn-link border-0 ms-2" type="button" id="sidebar" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
 		</div>
 	</nav>
 </header>
 
 <div class="d-flex wrapper wrapper-navbar-used wrapper-navbar-fixed">
 
-	<nav role="navigation" class="sidebar sidebar-bg-dark" id="navigation">
+	<nav role="navigation" class="sidebar shadow-soft" data-sidebar-theme="dark" id="navigation">
 
 		<!-- sidebar -->
 		<div class="sidebar-menu">
@@ -45,6 +53,7 @@
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 <script src="dist/sidebar.js"></script>
+<script src="dist/theme-switcher.js"></script>
 
 </body>
 </html>

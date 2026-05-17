@@ -24,14 +24,17 @@ export default defineConfig({
 		outDir: 'dist',
 		emptyOutDir: true,
 		lib: {
-			entry: path.resolve(__dirname, 'vite.build.js'),
+			entry: {
+				sidebar: path.resolve(__dirname, 'vite.build.js'),
+				'theme-switcher': path.resolve(__dirname, 'src/theme-switcher.js')
+			},
 			formats: ['es']
 		},
 		cssMinify: false,
 		rollupOptions: {
 			output: {
 				assetFileNames: 'sidebar.[ext]',
-				entryFileNames: 'sidebar.js'
+				entryFileNames: '[name].js'
 			}
 		}
 	}
