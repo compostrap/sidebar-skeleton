@@ -65,6 +65,9 @@ The theme switcher (`theme-switcher.js`) automatically persists the user's choic
 | Light | `data-sidebar-theme="light"` |
 | Dark  | `data-sidebar-theme="dark"`  |
 
+The sidebar skeleton only changes the sidebar background. It does not change Bootstrap's global `data-bs-theme`, so it can be used as an independent layout package without affecting the rest of the page.
+
+Packages built on top of the sidebar skeleton, such as `sidebar-menu-compostrap`, should react to the same `data-sidebar-theme` attribute when they need matching menu colors.
 
 ## Sidebar menu toggle
 If you want your own toggle button visible at all resolutions, update the class in sidebar.js:
