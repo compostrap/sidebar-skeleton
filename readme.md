@@ -76,3 +76,5 @@ If you want your own toggle button visible at all resolutions, update the class 
 |--------------------------|------------------------|
 | Visible in small devices | sidebar-toggle         |
 | Visible all resolution   | sidebar-toggle-visible |
+
+On smaller screens, the sidebar opens as an overlay and does not push the page content. A backdrop is added automatically and clicking it closes the sidebar. From the `md` breakpoint up, the sidebar stays visible in the normal layout.

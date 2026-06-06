@@ -8,9 +8,20 @@
 @import "bootstrap/scss/mixins";
 
 .sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 1045;
   margin-left: -(utils.$sm-width);
   transition: margin 0.15s ease-out;
+
+  .wrapper-navbar-fixed & {
+    top: utils.$sm-top;
+  }
+
   @include media-breakpoint-up('md') {
+    position: static;
+    z-index: auto;
     margin-left: 0;
   }
 
@@ -27,6 +38,23 @@
 
   &-rounded-top-right {
     border-top-right-radius: var(--bs-border-radius);
+  }
+
+  &-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 1040;
+    display: none;
+    background-color: rgba($black, .60);
+    backdrop-filter: blur(.063rem);
+
+    &.show {
+      display: block;
+    }
+
+    @include media-breakpoint-up('md') {
+      display: none !important;
+    }
   }
 }
 
