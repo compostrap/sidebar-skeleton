@@ -5,13 +5,13 @@
 @use "../utils/index" as utils;
 
 .wrapper {
-  min-height: 100vh;
+	min-height: 100vh;
 
-  &-navbar-used {
-    min-height: calc(100vh - #{utils.$sm-top});
-  }
+	&-navbar-used {
+		min-height: calc(100vh - #{utils.$sm-top});
+	}
 
-  &-navbar-fixed {
-    margin-top: utils.$sm-top;
-  }
+	&-navbar-fixed {
+		margin-top: utils.$sm-top;
+	}
 }

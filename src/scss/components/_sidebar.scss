@@ -16,45 +16,45 @@
   transition: margin 0.15s ease-out;
 
   .wrapper-navbar-fixed & {
-    top: utils.$sm-top;
+	top: utils.$sm-top;
   }
 
   @include media-breakpoint-up('md') {
-    position: static;
-    z-index: auto;
-    margin-left: 0;
+	position: static;
+	z-index: auto;
+	margin-left: 0;
   }
 
   &-toggle {
-    margin-left: 0;
+	margin-left: 0;
   }
 
   &-toggle-visible {
-    margin-left: 0;
-    @include media-breakpoint-up('md') {
-      margin-left: -(utils.$sm-width);
-    }
+	margin-left: 0;
+	@include media-breakpoint-up('md') {
+	  margin-left: -(utils.$sm-width);
+	}
   }
 
   &-rounded-top-right {
-    border-top-right-radius: var(--bs-border-radius);
+	border-top-right-radius: var(--bs-border-radius);
   }
 
   &-backdrop {
-    position: fixed;
-    inset: 0;
-    z-index: 1040;
-    display: none;
-    background-color: rgba($black, .60);
-    backdrop-filter: blur(.063rem);
+	position: fixed;
+	inset: 0;
+	z-index: 1040;
+	display: none;
+	background-color: rgba($black, .60);
+	backdrop-filter: blur(.063rem);
 
-    &.show {
-      display: block;
-    }
+	&.show {
+	  display: block;
+	}
 
-    @include media-breakpoint-up('md') {
-      display: none !important;
-    }
+	@include media-breakpoint-up('md') {
+	  display: none !important;
+	}
   }
 }
 
@@ -62,6 +62,6 @@
   width: utils.$sm-width;
 
   &-fixed {
-    position: fixed;
+	position: fixed;
   }
 }

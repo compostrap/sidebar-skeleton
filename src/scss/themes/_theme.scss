@@ -7,13 +7,13 @@
 
 // Manual theme switch similar to Bootstrap's data attributes.
 [data-sidebar-theme="light"] {
-  --sm-sidebar-bg: #{$white};
+	--sm-sidebar-bg: #{$white};
 }
 
 [data-sidebar-theme="dark"] {
-  --sm-sidebar-bg: #2b3035;
+	--sm-sidebar-bg: #2b3035;
 }
 
 .sidebar {
-  background-color: var(--sm-sidebar-bg, #{$white});
+	background-color: var(--sm-sidebar-bg, #{$white});
 }
