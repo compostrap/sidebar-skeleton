@@ -69,6 +69,23 @@ The sidebar skeleton only changes the sidebar background. It does not change Boo
 
 Packages built on top of the sidebar skeleton, such as `sidebar-menu-compostrap`, should react to the same `data-sidebar-theme` attribute when they need matching menu colors.
 
+## Theme switch labels
+The theme switcher uses English labels by default. If your application handles translations in HTML templates, pass translated labels through `data-*` attributes:
+
+```html
+<button
+	id="theme-toggle"
+	type="button"
+	aria-label="Toggle theme"
+	data-theme-light-label="Switch to light"
+	data-theme-dark-label="Switch to dark"
+>
+	Switch to light
+</button>
+```
+
+The JavaScript reads those values and updates the button text when the theme changes. If the attributes are missing, the default English labels are used.
+
 ## Sidebar menu toggle
 If you want your own toggle button visible at all resolutions, update the class in sidebar.js:
 

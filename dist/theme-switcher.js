@@ -1,19 +1,19 @@
-class s {
+class h {
   static init() {
-    const e = document.getElementById("theme-toggle"), t = document.getElementById("navigation");
-    if (!e || !t)
+    const t = document.getElementById("theme-toggle"), e = document.getElementById("navigation");
+    if (!t || !e)
       return;
-    const n = "sidebar-theme", r = "data-sidebar-theme", a = localStorage.getItem(n) || t.getAttribute(r) || "light";
-    t.setAttribute(r, a), this._render(e, a), e.addEventListener("click", (o) => {
-      o.preventDefault();
-      const i = t.getAttribute(r) === "light" ? "dark" : "light";
-      t.setAttribute(r, i), localStorage.setItem(n, i), this._render(e, i);
+    const i = "sidebar-theme", r = "data-sidebar-theme", n = localStorage.getItem(i) || e.getAttribute(r) || "light";
+    e.setAttribute(r, n), this._render(t, n), t.addEventListener("click", (s) => {
+      s.preventDefault();
+      const a = e.getAttribute(r) === "light" ? "dark" : "light";
+      e.setAttribute(r, a), localStorage.setItem(i, a), this._render(t, a);
     });
   }
-  static _render(e, t) {
-    e.innerText = t === "dark" ? "Switch to light" : "Switch to dark";
+  static _render(t, e) {
+    t.innerText = e === "dark" ? t.dataset.themeLightLabel || "Switch to light" : t.dataset.themeDarkLabel || "Switch to dark";
   }
 }
 export {
-  s as ThemeSwitcher
+  h as ThemeSwitcher
 };
