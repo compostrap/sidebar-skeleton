@@ -5,32 +5,32 @@
 export class ThemeSwitcher {
 	static init() {
 		const toggle = document.getElementById("theme-toggle");
-		const navigation = document.getElementById("navigation");
+		const themeTarget = document.documentElement;
 
-		if (!toggle || !navigation) {
+		if (!toggle) {
 			return;
 		}
 
-		const storageKey = "sidebar-theme";
-		const themeAttr = "data-sidebar-theme";
+		const storageKey = "bootstrap-theme";
+		const themeAttr = "data-bs-theme";
 
 		const currentTheme =
 			localStorage.getItem(storageKey) ||
-			navigation.getAttribute(themeAttr) ||
+			themeTarget.getAttribute(themeAttr) ||
 			"light";
 
-		navigation.setAttribute(themeAttr, currentTheme);
+		themeTarget.setAttribute(themeAttr, currentTheme);
 		this._render(toggle, currentTheme);
 
 		toggle.addEventListener("click", (event) => {
 			event.preventDefault();
 
 			const nextTheme =
-				navigation.getAttribute(themeAttr) === "light"
+				themeTarget.getAttribute(themeAttr) === "light"
 					? "dark"
 					: "light";
 
-			navigation.setAttribute(themeAttr, nextTheme);
+			themeTarget.setAttribute(themeAttr, nextTheme);
 			localStorage.setItem(storageKey, nextTheme);
 			this._render(toggle, nextTheme);
 		});

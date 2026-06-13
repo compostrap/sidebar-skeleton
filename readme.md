@@ -56,18 +56,16 @@ When using a navbar, extend the class called wrapper:
 | Right top rounded in sidebar | sidebar-rounded-top-right |
 | Fixed menu in sidebar        | sidebar-menu-fixed        |
 
-## Sidebar themes
-The sidebar supports light and dark themes via the `data-sidebar-theme` attribute.
+## Themes
+The sidebar follows Bootstrap's global theme through the `data-bs-theme` attribute.
 The theme switcher (`theme-switcher.js`) automatically persists the user's choice in the browser's `localStorage`, so the selected theme is remembered on subsequent visits.
 
-| Theme | Attribute                    |
-|-------|------------------------------|
-| Light | `data-sidebar-theme="light"` |
-| Dark  | `data-sidebar-theme="dark"`  |
+```html
+<html lang="en" data-bs-theme="light">
+```
 
-The sidebar skeleton only changes the sidebar background. It does not change Bootstrap's global `data-bs-theme`, so it can be used as an independent layout package without affecting the rest of the page.
-
-Packages built on top of the sidebar skeleton, such as `sidebar-menu-compostrap`, should react to the same `data-sidebar-theme` attribute when they need matching menu colors.
+The sidebar background uses `var(--bs-body-bg)`, so it stays aligned with Bootstrap's light and dark surfaces.
+Packages built on top of the sidebar skeleton, such as `sidebar-menu-compostrap`, use the same global Bootstrap theme.
 
 ## Theme switch labels
 The theme switcher uses English labels by default. If your application handles translations in HTML templates, pass translated labels through `data-*` attributes:

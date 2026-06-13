@@ -1,13 +1,13 @@
 class h {
   static init() {
-    const t = document.getElementById("theme-toggle"), e = document.getElementById("navigation");
-    if (!t || !e)
+    const t = document.getElementById("theme-toggle"), e = document.documentElement;
+    if (!t)
       return;
-    const i = "sidebar-theme", r = "data-sidebar-theme", n = localStorage.getItem(i) || e.getAttribute(r) || "light";
-    e.setAttribute(r, n), this._render(t, n), t.addEventListener("click", (s) => {
+    const n = "bootstrap-theme", r = "data-bs-theme", i = localStorage.getItem(n) || e.getAttribute(r) || "light";
+    e.setAttribute(r, i), this._render(t, i), t.addEventListener("click", (s) => {
       s.preventDefault();
       const a = e.getAttribute(r) === "light" ? "dark" : "light";
-      e.setAttribute(r, a), localStorage.setItem(i, a), this._render(t, a);
+      e.setAttribute(r, a), localStorage.setItem(n, a), this._render(t, a);
     });
   }
   static _render(t, e) {
