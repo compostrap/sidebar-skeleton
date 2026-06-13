@@ -1,19 +1,19 @@
-class d {
-  static init() {
-    const s = document.getElementById("sidebar"), e = document.getElementById("navigation"), t = document.createElement("div");
-    if (t.className = "sidebar-backdrop", s && e) {
-      e.after(t);
-      const a = () => {
-        e.classList.remove("sidebar-toggle"), t.classList.remove("show");
-      }, i = window.matchMedia("(min-width: 768px)");
-      s.addEventListener("click", () => {
-        e.classList.toggle("sidebar-toggle"), t.classList.toggle("show", e.classList.contains("sidebar-toggle"));
-      }), t.addEventListener("click", a), i.addEventListener("change", (c) => {
-        c.matches && a();
-      });
-    }
-  }
-}
-export {
-  d as Sidebar
+//#region src/sidebar.js
+var e = class {
+	static init() {
+		let e = document.getElementById("sidebar"), t = document.getElementById("navigation"), n = document.createElement("div");
+		if (n.className = "sidebar-backdrop", e && t) {
+			t.after(n);
+			let r = () => {
+				t.classList.remove("sidebar-toggle"), n.classList.remove("show");
+			}, i = window.matchMedia("(min-width: 768px)");
+			e.addEventListener("click", () => {
+				t.classList.toggle("sidebar-toggle"), n.classList.toggle("show", t.classList.contains("sidebar-toggle"));
+			}), n.addEventListener("click", r), i.addEventListener("change", (e) => {
+				e.matches && r();
+			});
+		}
+	}
 };
+//#endregion
+export { e as Sidebar };

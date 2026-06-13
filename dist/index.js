@@ -1,12 +1,10 @@
-import { Sidebar as i } from "./sidebar.js";
+import { Sidebar as e } from "./sidebar.js";
 import { ThemeSwitcher as t } from "./theme-switcher.js";
-class m {
-  static init() {
-    i.init(), t.init();
-  }
-}
-export {
-  i as Sidebar,
-  m as SidebarSkeleton,
-  t as ThemeSwitcher
+//#region src/index.js
+var n = class {
+	static init() {
+		e.init(), t.init();
+	}
 };
+//#endregion
+export { e as Sidebar, n as SidebarSkeleton, t as ThemeSwitcher };
