@@ -78,7 +78,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.875rem;
   color: var(--bs-navbar-color);
   text-decoration: none;
   transition: color 0.15s ease-in-out;
