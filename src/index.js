@@ -1,4 +1,3 @@
-import "./scss/sidebar.scss";
 import { Sidebar } from "./sidebar.js";
 
 export class SidebarSkeleton {
