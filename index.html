@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="node_modules/theme-switcher-compostrap/dist/theme-switcher.css">
 	<link rel="stylesheet" href="dist/sidebar.css">
 	<title>Sidebar</title>
 </head>
@@ -21,8 +22,8 @@
 			<div class="ms-auto d-flex align-items-center">
 
 				<!-- theme toggle -->
-				<button class="btn btn-link nav-link py-2 px-0 px-lg-2 border-0" id="theme-toggle" type="button" aria-label="Toggle theme" data-theme-light-label="Switch to light" data-theme-dark-label="Switch to dark">
-					Switch to light
+				<button class="btn btn-link nav-link theme-switcher py-2 px-0 px-lg-2 border-0 text-decoration-none" type="button" aria-label="Toggle theme" data-theme-switcher data-theme-light-label="Switch to light" data-theme-dark-label="Switch to dark">
+					<span data-theme-switcher-label>Switch to dark</span>
 				</button>
 
 				<!-- sidebar toggle -->
@@ -53,10 +54,12 @@
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 <script type="module">
-	import { Sidebar, ThemeSwitcher } from "./dist/index.js";
+	import { Sidebar } from "./dist/index.js";
+	import ThemeSwitcher from "./node_modules/theme-switcher-compostrap/dist/index.js";
+
 	document.addEventListener('DOMContentLoaded', () => {
 		Sidebar.init();
-		ThemeSwitcher.init();
+		new ThemeSwitcher().initialize();
 	});
 </script>
 

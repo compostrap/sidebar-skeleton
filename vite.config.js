@@ -24,8 +24,7 @@ export default defineConfig({
 		lib: {
 			entry: {
 				index: path.resolve(__dirname, "src/index.js"),
-				sidebar: path.resolve(__dirname, "src/sidebar.js"),
-				"theme-switcher": path.resolve(__dirname, "src/theme-switcher.js")
+				sidebar: path.resolve(__dirname, "src/sidebar.js")
 			},
 			formats: ["es"]
 		},

@@ -12,9 +12,11 @@
   "exports": {
     ".": "./dist/index.js",
     "./sidebar": "./dist/sidebar.js",
-    "./theme-switcher": "./dist/theme-switcher.js",
     "./sidebar.css": "./dist/sidebar.css",
     "./src/scss/*": "./src/scss/*"
+  },
+  "dependencies": {
+    "theme-switcher-compostrap": "^1.0.2"
   },
   "devDependencies": {
     "sass": "^1.97.1",

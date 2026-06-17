@@ -17,17 +17,19 @@ Import the styles and initialize the components in your JavaScript entry point:
 import 'sidebar-skeleton-compostrap/sidebar.css';
 import { SidebarSkeleton } from 'sidebar-skeleton-compostrap';
 
-// Initialize both Sidebar and ThemeSwitcher
+// Initialize Sidebar structure
 SidebarSkeleton.init();
 ```
 
-Alternatively, you can initialize components individually:
+The theme switcher is provided by `theme-switcher-compostrap`:
 
 ```javascript
-import { Sidebar, ThemeSwitcher } from 'sidebar-skeleton-compostrap';
+import 'theme-switcher-compostrap/theme-switcher.css';
+import { Sidebar } from 'sidebar-skeleton-compostrap';
+import ThemeSwitcher from 'theme-switcher-compostrap';
 
 Sidebar.init();
-ThemeSwitcher.init();
+new ThemeSwitcher().initialize();
 ```
 
 ## Built on
@@ -58,7 +60,8 @@ When using a navbar, extend the class called wrapper:
 
 ## Themes
 The sidebar follows Bootstrap's global theme through the `data-bs-theme` attribute.
-The theme switcher (`theme-switcher.js`) automatically persists the user's choice in the browser's `localStorage`, so the selected theme is remembered on subsequent visits.
+Use `theme-switcher-compostrap` when you want a ready-made switcher that persists the user's choice in the
+browser's `localStorage`.
 
 ```html
 <html lang="en" data-bs-theme="light">
@@ -68,21 +71,39 @@ The sidebar background uses `var(--bs-body-bg)`, so it stays aligned with Bootst
 Packages built on top of the sidebar skeleton, such as `sidebar-menu-compostrap`, use the same global Bootstrap theme.
 
 ## Theme switch labels
-The theme switcher uses English labels by default. If your application handles translations in HTML templates, pass translated labels through `data-*` attributes:
+The theme switcher uses English labels by default. If your application handles translations in HTML templates,
+pass translated labels through `data-*` attributes:
 
 ```html
 <button
-	id="theme-toggle"
 	type="button"
+	class="btn btn-link nav-link theme-switcher"
 	aria-label="Toggle theme"
+	data-theme-switcher
 	data-theme-light-label="Switch to light"
 	data-theme-dark-label="Switch to dark"
 >
-	Switch to light
+	<span data-theme-switcher-label>Switch to dark</span>
 </button>
 ```
 
-The JavaScript reads those values and updates the button text when the theme changes. If the attributes are missing, the default English labels are used.
+The JavaScript reads those values and updates the button text when the theme changes. If the attributes are
+missing, the default English labels are used.
+
+Icons are optional and can come from any icon library loaded by your project:
+
+```html
+<button
+	type="button"
+	class="btn btn-link nav-link theme-switcher"
+	data-theme-switcher
+	data-theme-light-icon="fa-solid fa-sun"
+	data-theme-dark-icon="fa-solid fa-moon"
+>
+	<i data-theme-switcher-icon></i>
+	<span data-theme-switcher-label>Switch to dark</span>
+</button>
+```
 
 ## Sidebar menu toggle
 If you want your own toggle button visible at all resolutions, update the class in sidebar.js:

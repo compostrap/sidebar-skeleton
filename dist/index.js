@@ -1,10 +1,9 @@
 import { Sidebar as e } from "./sidebar.js";
-import { ThemeSwitcher as t } from "./theme-switcher.js";
 //#region src/index.js
-var n = class {
+var t = class {
 	static init() {
-		e.init(), t.init();
+		e.init();
 	}
 };
 //#endregion
-export { e as Sidebar, n as SidebarSkeleton, t as ThemeSwitcher };
+export { e as Sidebar, t as SidebarSkeleton };
