@@ -26,7 +26,7 @@ The theme switcher is provided by `theme-switcher-compostrap`:
 ```javascript
 import 'theme-switcher-compostrap/theme-switcher.css';
 import { Sidebar } from 'sidebar-skeleton-compostrap';
-import ThemeSwitcher from 'theme-switcher-compostrap';
+import { ThemeSwitcher } from 'theme-switcher-compostrap';
 
 Sidebar.init();
 new ThemeSwitcher().initialize();
