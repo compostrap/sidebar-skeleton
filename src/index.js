@@ -1,4 +1,4 @@
-import { Sidebar } from "./sidebar.js";
+import { Sidebar } from './sidebar.js';
 
 export class SidebarSkeleton {
 	static init() {

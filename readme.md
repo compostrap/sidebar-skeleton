@@ -1,4 +1,5 @@
 ## Sidebar Skeleton
+
 Simple and fast sidebar skeleton built on Bootstrap 5.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/compostrap/sidebar-skeleton/blob/master/license)
@@ -6,11 +7,13 @@ Simple and fast sidebar skeleton built on Bootstrap 5.
 [![Build status](https://github.com/compostrap/sidebar-skeleton/actions/workflows/build.yml/badge.svg)](https://github.com/compostrap/sidebar-skeleton/actions/workflows/build.yml)
 
 ## Installation
+
 ```bash
 npm install sidebar-skeleton-compostrap
 ```
 
 ## Usage
+
 Import the styles and initialize the components in your JavaScript entry point:
 
 ```javascript
@@ -33,16 +36,20 @@ new ThemeSwitcher().initialize();
 ```
 
 ## Built on
+
 - [Bootstrap 5](https://getbootstrap.com)
 
 ## Demo
+
 - [Live demo](https://compostrap.github.io/sidebar-skeleton)
 
 ## Introduction
+
 Simple and fast sidebar skeleton is built on Bootstrap.
 You should be familiar with Bootstrap usage and have basic knowledge of Sass, npm.
 
 ## Customize sidebar when navbar is used
+
 When using a navbar, extend the class called wrapper:
 
 | Navbar       | Class                |
@@ -59,6 +66,7 @@ When using a navbar, extend the class called wrapper:
 | Fixed menu in sidebar        | sidebar-menu-fixed        |
 
 ## Themes
+
 The sidebar follows Bootstrap's global theme through the `data-bs-theme` attribute.
 Use `theme-switcher-compostrap` when you want a ready-made switcher that persists the user's choice in the
 browser's `localStorage`.
@@ -71,6 +79,7 @@ The sidebar background uses `var(--bs-body-bg)`, so it stays aligned with Bootst
 Packages built on top of the sidebar skeleton, such as `sidebar-menu-compostrap`, use the same global Bootstrap theme.
 
 ## Theme switch labels
+
 The theme switcher uses English labels by default. If your application handles translations in HTML templates,
 pass translated labels through `data-*` attributes:
 
@@ -106,6 +115,7 @@ Icons are optional and can come from any icon library loaded by your project:
 ```
 
 ## Sidebar menu toggle
+
 If you want your own toggle button visible at all resolutions, update the class in sidebar.js:
 
 | Description              | Class                  |

@@ -2,45 +2,45 @@
 // sidebar component
 //
 
-@use "../utils/index" as utils;
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/mixins";
+@use '../utils/index' as utils;
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
 
 .sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  z-index: 1045;
-  margin-left: -(utils.$sm-width);
-  transition: margin 0.15s ease-out;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	z-index: 1045;
+	margin-left: -(utils.$sm-width);
+	transition: margin 0.15s ease-out;
 
-  .wrapper-navbar-fixed & {
+	.wrapper-navbar-fixed & {
 	top: utils.$sm-top;
-  }
+	}
 
-  @include media-breakpoint-up('md') {
+	@include media-breakpoint-up('md') {
 	position: static;
 	z-index: auto;
 	margin-left: 0;
-  }
+	}
 
-  &-toggle {
+	&-toggle {
 	margin-left: 0;
-  }
+	}
 
-  &-toggle-visible {
+	&-toggle-visible {
 	margin-left: 0;
 	@include media-breakpoint-up('md') {
-	  margin-left: -(utils.$sm-width);
+	`tmargin-left: -(utils.$sm-width);
 	}
-  }
+	}
 
-  &-rounded-top-right {
+	&-rounded-top-right {
 	border-top-right-radius: var(--bs-border-radius);
-  }
+	}
 
-  &-backdrop {
+	&-backdrop {
 	position: fixed;
 	inset: 0;
 	z-index: 1040;
@@ -49,19 +49,19 @@
 	backdrop-filter: blur(.063rem);
 
 	&.show {
-	  display: block;
+	`tdisplay: block;
 	}
 
 	@include media-breakpoint-up('md') {
-	  display: none !important;
+	`tdisplay: none !important;
 	}
-  }
+	}
 }
 
 .sidebar-menu {
-  width: utils.$sm-width;
+	width: utils.$sm-width;
 
-  &-fixed {
+	&-fixed {
 	position: fixed;
-  }
+	}
 }
