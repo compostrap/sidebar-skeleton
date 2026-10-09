@@ -32,7 +32,7 @@
 	&-toggle-visible {
 	margin-left: 0;
 	@include media-breakpoint-up('md') {
-	`tmargin-left: -(utils.$sm-width);
+		margin-left: -(utils.$sm-width);
 	}
 	}
 
@@ -49,11 +49,11 @@
 	backdrop-filter: blur(.063rem);
 
 	&.show {
-	`tdisplay: block;
+		display: block;
 	}
 
 	@include media-breakpoint-up('md') {
-	`tdisplay: none !important;
+		display: none !important;
 	}
 	}
 }
