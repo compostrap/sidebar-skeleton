@@ -1,6 +1,6 @@
 {
 	"name": "sidebar-skeleton-compostrap",
-	"version": "3.0.4",
+	"version": "3.0.5",
 	"description": "Simple and fast sidebar skeleton built on Bootstrap 5.",
 	"type": "module",
 	"license": "MIT",
@@ -16,7 +16,7 @@
 		"./src/scss/*": "./src/scss/*"
 	},
 	"dependencies": {
-		"theme-switcher-compostrap": "^1.0.2"
+		"theme-switcher-compostrap": "^2.0.0"
 	},
 	"devDependencies": {
 		"sass": "^1.97.1",

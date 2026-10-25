@@ -15,6 +15,10 @@
 	margin-left: -(utils.$sm-width);
 	transition: margin 0.15s ease-out;
 
+	@media (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+
 	.wrapper-navbar-fixed & {
 	top: utils.$sm-top;
 	}
