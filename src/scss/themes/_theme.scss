@@ -2,8 +2,24 @@
 // theme default
 //
 
-@import 'bootstrap/scss/functions';
-@import 'bootstrap/scss/variables';
+// the backgrounds of the light and the dark theme in neutral grays without the blue tint of Bootstrap: the page in
+// the tertiary background, the sidebar and other surfaces in the body background
+:root,
+[data-bs-theme='light'] {
+	--bs-secondary-bg: #e5e5e5;
+	--bs-secondary-bg-rgb: 229, 229, 229;
+	--bs-tertiary-bg: #fafafa;
+	--bs-tertiary-bg-rgb: 250, 250, 250;
+}
+
+[data-bs-theme='dark'] {
+	--bs-body-bg: #171717;
+	--bs-body-bg-rgb: 23, 23, 23;
+	--bs-secondary-bg: #262626;
+	--bs-secondary-bg-rgb: 38, 38, 38;
+	--bs-tertiary-bg: #1f1f1f;
+	--bs-tertiary-bg-rgb: 31, 31, 31;
+}
 
 .sidebar {
 	background-color: var(--bs-body-bg);

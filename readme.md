@@ -76,6 +76,12 @@ browser's `localStorage`.
 ```
 
 The sidebar background uses `var(--bs-body-bg)`, so it stays aligned with Bootstrap's light and dark surfaces.
+The skeleton sets the backgrounds of both themes in neutral grays without the blue tint of Bootstrap:
+
+| Theme | `--bs-body-bg` | `--bs-secondary-bg` | `--bs-tertiary-bg` (page) |
+|-------|----------------|---------------------|---------------------------|
+| Light | `#fff`         | `#e5e5e5`           | `#fafafa`                 |
+| Dark  | `#171717`      | `#262626`           | `#1f1f1f`                 |
 Packages built on top of the sidebar skeleton, such as `sidebar-menu-compostrap`, use the same global Bootstrap theme.
 
 ## Theme switch labels
@@ -123,4 +129,4 @@ If you want your own toggle button visible at all resolutions, update the class 
 | Visible in small devices | sidebar-toggle         |
 | Visible all resolution   | sidebar-toggle-visible |
 
-On smaller screens, the sidebar opens as an overlay and does not push the page content. A backdrop is added automatically; clicking it or pressing Escape closes the sidebar. The toggle exposes its open state to assistive technology. From the `md` breakpoint up, the sidebar stays visible in the normal layout.
+On smaller screens, the sidebar opens as an overlay and does not push the page content. A backdrop is added automatically; clicking it or pressing Escape closes the sidebar. The toggle exposes its open state to assistive technology. While closed, the sidebar is `inert` (Tab skips its links); when opened, it takes the focus, and the focus leaving it closes it. From the `md` breakpoint up, the sidebar stays visible in the normal layout.
